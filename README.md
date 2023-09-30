@@ -1,6 +1,6 @@
 
 
-```markdown
+arkdown
 # AWS CLI Commands Cheat Sheet
 
 This README provides a handy reference for common AWS CLI commands. The AWS Command Line Interface (CLI) allows you to interact with various AWS services from the command line. Make sure you have the AWS CLI installed and configured before using these commands.
@@ -24,6 +24,8 @@ You can install the AWS CLI by following the instructions in the [official AWS d
 ## Configuration
 
 Before using the AWS CLI, configure your credentials using the `aws configure` command:
+
+
 
 ```bash
 aws configure
@@ -141,9 +143,7 @@ Follow the prompts to enter your AWS Access Key ID, Secret Access Key, default r
   ```
 
 This README provides a quick reference to some common AWS CLI commands. For more details and additional commands, refer to the [AWS CLI documentation](https://docs.aws.amazon.com/cli/latest/index.html).
-```
 
-You can customize this `README.md` by adding or modifying the AWS CLI commands and descriptions as needed for your specific use case.
 
 
 
