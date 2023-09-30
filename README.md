@@ -1,0 +1,9 @@
+# CLI-commands
+
+AWSCLI
+
+EKSCLT
+
+KUBECTL 
+
+
