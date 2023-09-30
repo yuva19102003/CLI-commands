@@ -1,6 +1,5 @@
 
 
-arkdown
 # AWS CLI Commands Cheat Sheet
 
 This README provides a handy reference for common AWS CLI commands. The AWS Command Line Interface (CLI) allows you to interact with various AWS services from the command line. Make sure you have the AWS CLI installed and configured before using these commands.
