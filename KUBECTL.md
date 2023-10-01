@@ -98,7 +98,7 @@ kubectl config use-context my-cluster-context
 
 - Expose a deployment as a service:
   ```bash
-  kubectl expose deployment my-deployment --port=80 --target-port=8080 --type=LoadBalancer
+  kubectl expose service <service name which going to change> --type=<ClusterIP NodeGroup LoaddBalancer> --target-port=<target port number> --name=<new service name>
   ```
 
 ## Config Maps and Secrets
