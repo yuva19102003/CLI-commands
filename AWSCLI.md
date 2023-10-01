@@ -43,7 +43,12 @@ Follow the prompts to enter your AWS Access Key ID, Secret Access Key, default r
   ```bash
   aws ec2 describe-regions
   ```
+## EKS Commands
 
+- connecting the eks cluster to the machine :
+  ```bash
+  aws eks --region <eg: us-west-1> update-kubeconfig --name <cluster-name>
+  ```
 ## S3 Commands
 
 - List buckets:
