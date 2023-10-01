@@ -49,6 +49,11 @@ Follow the prompts to enter your AWS Access Key ID, Secret Access Key, default r
   ```bash
   aws eks --region <eg: us-west-1> update-kubeconfig --name <cluster-name>
   ```
+  
+  cluster status :
+  ```bash
+  aws eks --region <eg:us-west-1> describe-cluster --name <cluster-name> --query cluster.status
+  ```
 ## S3 Commands
 
 - List buckets:
