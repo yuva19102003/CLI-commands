@@ -165,7 +165,14 @@ kubectl config use-context my-cluster-context
   ```bash
   kubectl create namespace my-namespace
   ```
-
+- changing one namespace to another namespace:
+  ```bash
+    kubectl config set-context --current --namespace=my-namespace
+  ```
+  - view the current namespace:
+  ```bash
+  kubectl config view --minify --output 'jsonpath={..namespace}'
+  ```
 - Delete a namespace and all its resources:
   ```bash
   kubectl delete namespace my-namespace
