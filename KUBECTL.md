@@ -3,7 +3,7 @@
 
 This README provides a handy reference for common `kubectl` commands. `kubectl` is the command-line tool for interacting with Kubernetes clusters. It allows you to manage and control Kubernetes resources.
 
-## Table of Contents
+`## Table of Contents
 
 1. [Installation](#installation)
 2. [Configuration](#configuration)
@@ -14,7 +14,7 @@ This README provides a handy reference for common `kubectl` commands. `kubectl` 
 7. [Config Maps and Secrets](#config-maps-and-secrets)
 8. [Node and Cluster Management](#node-and-cluster-management)
 9. [Troubleshooting](#troubleshooting)
-10. [Advanced Topics](#advanced-topics)
+10. [Advanced Topics](#advanced-topics)`
 
 ## Installation
 
