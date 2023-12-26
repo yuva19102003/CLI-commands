@@ -245,5 +245,5 @@ which is for
 
 using docker inside a docker image
 ```bash
-ubuntu@ip-10-0-28-29:~$ docker run -it -v /var/run/docker.sock:/var/run/docker.sock dockeragentforjava:v1 bin/bash
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock docker-image:version bin/bash
 ```
