@@ -1,6 +1,7 @@
 # CLI-commands
-
-AWSCLI
+---
+| s.no | commands | link |
+ __AWSCLI
 
 EKSCLT
 
