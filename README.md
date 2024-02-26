@@ -4,5 +4,6 @@
 
 ## AWSCLI
 ## EKSCLI
+## KUBECTL
 
 ----
