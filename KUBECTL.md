@@ -16,6 +16,18 @@ This README provides a handy reference for common `kubectl` commands. `kubectl` 
 9. [Troubleshooting](#troubleshooting)
 10. [Advanced Topics](#advanced-topics)`
 
+
+- To access the Docker daemon inside of Minikube:
+  ```bash
+  eval $(minikube docker-env)
+  ```
+- for exit from that:
+  
+  ```bash
+  eval $(minikube docker-env -u)
+  ```
+
+
 ## Installation
 
 You can install `kubectl` by following the instructions in the [official Kubernetes documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
@@ -418,6 +430,7 @@ kubectl config use-context my-cluster-context
   ```bash
   kubectl get deployment my-deployment -o yaml > my-deployment-export.yaml
   ```
+
 
 This README provides a quick reference to some common `kubectl` commands for managing Kubernetes clusters. For more details and additional commands, refer to the [kubectl documentation](https://kubernetes.io/docs/reference/kubectl/overview/).
 
