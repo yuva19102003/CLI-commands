@@ -1,6 +1,5 @@
 
 # EKSctl Commands Cheat Sheet
-
 This README provides a handy reference for common Amazon Elastic Kubernetes Service (EKS) CLI (eksctl) commands. EKSctl is a command-line tool provided by Weaveworks that simplifies the creation and management of EKS clusters. Make sure you have eksctl installed and configured before using these commands.
 
 ## Table of Contents
