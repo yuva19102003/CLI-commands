@@ -432,5 +432,28 @@ kubectl config use-context my-cluster-context
   ```
 
 
+To remove EKS clusters from your kubeconfig, you can use the `kubectl config delete-cluster` command. Here's how you can do it:
+
+1. List the existing clusters in your kubeconfig to get the exact names:
+   ```
+   kubectl config get-clusters
+   ```
+
+2. Identify the names of the clusters you want to remove.
+
+3. Delete each cluster entry using the `kubectl config delete-cluster` command, specifying the cluster name:
+   ```
+   kubectl config delete-cluster <cluster-name>
+   ```
+
+For example, if you have two clusters named `eks-cluster-1` and `eks-cluster-2` that you want to remove:
+
+```
+kubectl config delete-cluster eks-cluster-1
+kubectl config delete-cluster eks-cluster-2
+```
+
+This will remove the specified clusters from your kubeconfig file. Make sure to verify the changes by listing the clusters again using `kubectl config get-clusters`.
+
 This README provides a quick reference to some common `kubectl` commands for managing Kubernetes clusters. For more details and additional commands, refer to the [kubectl documentation](https://kubernetes.io/docs/reference/kubectl/overview/).
 
